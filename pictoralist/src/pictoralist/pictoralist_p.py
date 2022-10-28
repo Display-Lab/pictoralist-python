@@ -73,9 +73,9 @@ class Pictoralist():
             line=plt.bar(X_p, self.performance_data, 0.4, label = 'Performance', color="#00274C")
             line1=plt.bar(X_b, self.peer_average, 0.4, label = 'Peer Average', color="#878A8F")
             for i in range(len(self.performance_data)):
-                plt.annotate(str(self.performance_data[i]), xy=(X_p[i],self.performance_data[i]), ha='center', va='bottom',xytext=(X_p[i],self.performance_data[i]-10))
+                plt.annotate(str(self.performance_data[i]), xy=(X_p[i],self.performance_data[i]), ha='center', va='bottom',xytext=(X_p[i],self.performance_data[i]-10),color='white')
             for i in range(len(self.peer_average)):
-                plt.annotate(str(self.peer_average[i]), xy=(X_b[i],self.peer_average[i]), ha='center', va='bottom',xytext=(X_b[i],self.peer_average[i]-10))
+                plt.annotate(str(self.peer_average[i]), xy=(X_b[i],self.peer_average[i]), ha='center', va='bottom',xytext=(X_b[i],self.peer_average[i]-10),color='white')
             plt.xticks(X_axis,X)
         
         #X=X.tolist()
