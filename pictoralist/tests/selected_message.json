@@ -1,0 +1,17 @@
+{
+  "id":"b1134",
+  "slowmo:AncestorPerformer{Literal}":"_:p1",
+  "slowmo:AncestorTemplate{Literal}":"http://feedbacktailor.org/ftkb#BetterGoalBar",
+  "disposition":null,
+  "reference_values":"N0ffa7494878846da91878ab1f968b5ce",
+  "rdf:type{URIRef}":"obo:cpo_0000053",
+  "psdo:PerformanceSummaryDisplay{Literal}":"line",
+  "psdo:PerformanceSummaryTextualEntity{Literal}":"You reached the peer benchmark",
+  "slowmo:acceptable_by{URIRef}[0]":"http://feedbacktailor.org/ftkb#GoalBetter",
+  "slowmo:acceptable_by{URIRef}[1]":null,
+  "comparison value":"0.9",
+  "name":"goal",
+  "title":"Low MAP Prevention < 55",
+  "Measure Name":"BP01",
+  "Message Code":"4"
+}
